@@ -1,0 +1,106 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    /* Warna latar belakang */
+    color: #343a40;
+    /* Warna teks */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    /* Pusatkan konten */
+    padding: 20px;
+    background-color: #ffffff;
+    /* Warna latar belakang konten */
+    border-radius: 8px;
+    /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Bayangan */
+}
+
+h1 {
+    font-size: 2.5rem;
+    /* Ukuran font untuk judul */
+    margin-bottom: 20px;
+    /* Jarak bawah */
+    text-align: center;
+    /* Pusatkan teks */
+    color: #007bff;
+    /* Warna judul */
+}
+
+p {
+    font-size: 1.2rem;
+    /* Ukuran font untuk paragraf */
+    text-align: center;
+    /* Pusatkan teks */
+    margin-bottom: 30px;
+    /* Jarak bawah */
+}
+
+
+/* Tombol */
+
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #28a745;
+    /* Warna tombol */
+    border: none;
+    border-radius: 5px;
+    /* Sudut melengkung tombol */
+    text-decoration: none;
+    /* Hilangkan garis bawah */
+    transition: background-color 0.3s;
+    /* Efek transisi */
+}
+
+.btn-custom:hover {
+    background-color: #218838;
+    /* Warna tombol saat hover */
+}
+
+.header {
+    background-color: #ffffff;
+    /* Warna latar belakang header */
+    color: #ffffff;
+    /* Warna teks header */
+    padding: 10px 0;
+    /* Jarak atas dan bawah */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Bayangan untuk efek kedalaman */
+}
+
+.navbar-brand {
+    font-size: 24px;
+    /* Ukuran font untuk nama brand */
+    font-weight: bold;
+    /* Menebalkan nama brand */
+}
+
+.nav-link {
+    font-size: 16px;
+    /* Ukuran font untuk link navigasi */
+    margin-left: 15px;
+    /* Jarak antar link */
+    transition: color 0.3s;
+    /* Transisi warna saat hover */
+    color: black;
+    /* Warna teks link */
+}
+
+.nav-link:hover {
+    color: black;
+    /* Warna saat hover */
+}
